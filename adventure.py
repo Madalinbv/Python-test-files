@@ -8,4 +8,6 @@ while chosen_exit not in available_exits:
         break
 else:
     print ("you're out")
+
+#adding a new line on this
     
