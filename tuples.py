@@ -52,11 +52,21 @@
 # print(new_range)
 # for i in new_range:
 #     print(i, ', ')
-imelda = 'More Mayhem', 'Imelda May', 2011, [
-    (1, 'Pulling the Rug'),
-    (2, 'Psycho'),
-    (3, 'Mayhem'),
-    (4, 'Kentish Town Waltz')]
-
-imelda[3].append(5, 'All For You')
-print(imelda[3])
+# imelda = 'More Mayhem', 'Imelda May', 2011, [
+#     (1, 'Pulling the Rug'),
+#     (2, 'Psycho'),
+#     (3, 'Mayhem'),
+#     (4, 'Kentish Town Waltz')]
+#
+# imelda[3].append(5, 'All For You')
+# print(imelda[3])
+t=(0,1,2,3,4,5,6,7,8,9)
+print (t[11:0:-2])
+person1=('nancy-pants', 25, 'pizza')
+person2=('nancy-pants2', 32, 'french fries')
+person = [person1, person2]
+for name, age, favfood in person:
+    print(name)
+    print(age)
+    print(favfood)
+    print()
