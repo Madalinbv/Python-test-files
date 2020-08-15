@@ -76,3 +76,8 @@ if squares.issubset(even):
     print("squares is a a sub set of even")
 if even.issuperset(squares):
     print("even is a superset of squares")
+
+s= {'blueberry','raspberry'}
+s.add("test")
+print()
+
