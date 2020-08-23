@@ -9,7 +9,7 @@ theBoard = {'7': ' ', '8': ' ', '9': ' ',
             '4': ' ', '5': ' ', '6': ' ',
             '1': ' ', '2': ' ', '3': ' '}
 
-board_keys = []
+board_keys = []1
 
 for key in theBoard:
     board_keys.append(key)
